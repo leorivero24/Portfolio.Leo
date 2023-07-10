@@ -49,7 +49,7 @@ html{
     color:#001eff;
 }
 .nav-responsive{
-    background-color: #1CB698;
+    background-color:#001eff;;
     color:#fff;
     padding: 5px 10px;
     border-radius: 5px;
@@ -72,7 +72,6 @@ html{
 }
 .inicio .contenido-banner{
     margin: auto;
-    /*margin-top: 10%;*/
     padding: 20px;
     background-color: #1e2326;
     max-width: 350px;
@@ -110,7 +109,7 @@ html{
     transition: .3s;
 }
 .inicio .contenido-banner .redes a:hover{
-    background-color: #1CB698;
+    background-color: #001eff;
 }
 .sobremi{
     background-color: #1e2326;
@@ -126,18 +125,30 @@ html{
     font-family: 'Righteous';
     text-align: center;
     padding: 20px 0;
+    color:  #5669fc;
 
 }
 .sobremi .contenido-seccion p{
+    font-family: 'Righteous';
     font: 18px;
     line-height: 22px;
     margin-bottom: 20px;
 }
 .sobremi .contenido-seccion p span{
-    color: #1CB698;
+    font-family: 'Righteous';
+    color:#001eff;
     font-weight: bold;
 }
+.sobremi .contenido-seccion h1{
+    font-family: 'Righteous';
+    text-align: center;
+    font-weight: bold;
+    padding: 20px 0;
+    color:  #5669fc;
+}
+
 .sobremi .fila{
+    margin-top: 5%;
     display: flex;
 }
 .sobremi .fila .col
@@ -148,6 +159,7 @@ html{
     font-size: 28px;
     font-family: 'Righteous';
     margin-bottom: 25px;
+    color:  #5669fc;
 }
 .sobremi .fila .col ul{
     list-style: none;
@@ -157,11 +169,11 @@ html{
 }
 .sobremi .fila .col ul li strong{
     display: inline-block;
-    color: #1CB698;
+    color: #001eff;
     width: 130px;
 }
 .sobremi .fila .col ul li span{
-    background-color: #1CB698;
+    background-color:#001eff;
     padding: 3px;
     font-weight: bold;
     border-radius: 5px;
@@ -182,7 +194,7 @@ html{
     justify-content: center;
     transition: .3s;
 }.sobremi .fila .col .contenedor-intereses .interes:hover{
-    background-color: #1CB698;
+    background-color:#001eff;
 }
 .sobremi .fila .col .contenedor-intereses .interes i{
     font-size: 30px;

@@ -58,7 +58,7 @@ html{
 }
 /* SECCION I N I C I O */
 .inicio{
-    margin-top: 4%;
+    /* margin-top: 0%; */
     background: linear-gradient(to top, rgba(30,35,38,.8), rgba(30,35,38,1)),
     url(img/fondo4.jpg);
     background-size: cover;
@@ -94,6 +94,7 @@ html{
 .inicio .contenido-banner h2{
     font-size: 15px;
     font-weight: normal;
+    
 }
 .inicio .contenido-banner .redes a{
     color: #fff;
@@ -125,7 +126,7 @@ html{
     font-family: 'Righteous';
     text-align: center;
     padding: 20px 0;
-    color:  #5669fc;
+    color: #001eff;
 
 }
 .sobremi .contenido-seccion p{
@@ -136,7 +137,7 @@ html{
 }
 .sobremi .contenido-seccion p span{
     font-family: 'Righteous';
-    color:#001eff;
+    color:#00bbff;
     font-weight: bold;
 }
 .sobremi .contenido-seccion h1{
@@ -144,7 +145,7 @@ html{
     text-align: center;
     font-weight: bold;
     padding: 20px 0;
-    color:  #5669fc;
+    color:  #001eff;
 }
 
 .sobremi .fila{
@@ -159,7 +160,7 @@ html{
     font-size: 28px;
     font-family: 'Righteous';
     margin-bottom: 25px;
-    color:  #5669fc;
+    color: #001eff;
 }
 .sobremi .fila .col ul{
     list-style: none;
@@ -219,7 +220,7 @@ html{
     left: 0;
     width: 0;
     height: 100%;
-    background-color: #1CB698;
+    background-color:#00bbff;
     z-index: -1;
     transition: 1s;
 }

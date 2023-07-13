@@ -273,7 +273,7 @@ html{
     margin-bottom: 30px;
 }
 .skills .skill .progreso{
-    background-color: #1CB698;
+    background-color:#001eff;
     position: absolute;
     top: 0;
     left: 0;
@@ -283,7 +283,7 @@ html{
     position: absolute;
     height: 40px;
     width: 40px;
-    background-color: #1CB698;
+    background-color: #001eff;
     border-radius: 50px;
     line-height: 40px;
     text-align: center;
@@ -298,7 +298,7 @@ html{
 }
 @keyframes javascript {
     0%{width: 0%;}
-    100%{width: 75%;}
+    100%{width: 25%;}
 }
 
 .skills .skill .htmlcss{
@@ -307,7 +307,7 @@ html{
 }
 @keyframes htmlcss {
     0%{width: 0%;}
-    100%{width: 20%;}
+    100%{width: 50%;}
 }
 
 .skills .skill .photoshop{
@@ -316,7 +316,7 @@ html{
 }
 @keyframes photoshop {
     0%{width: 0%;}
-    100%{width: 95%;}
+    100%{width: 40%;}
 }
 
 .skills .skill .wordpress{
@@ -325,7 +325,7 @@ html{
 }
 @keyframes wordpress {
     0%{width: 0%;}
-    100%{width: 81%;}
+    100%{width: 20%;}
 }
 
 .skills .skill .drupal{
@@ -334,7 +334,7 @@ html{
 }
 @keyframes drupal {
     0%{width: 0%;}
-    100%{width: 55%;}
+    100%{width: 75%;}
 }
 
 .skills .skill .comunicacion{

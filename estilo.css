@@ -201,36 +201,7 @@ html{
     font-size: 30px;
     margin-bottom: 10px;
 }
-.sobremi button{
-    cursor: pointer;
-    background-color: transparent;
-    border: 2px solid #fff;
-    width: fit-content;
-    display: block;
-    margin: 20px auto;
-    padding: 10px 22px;
-    font-size: 16px;
-    color: #fff;
-    position: relative;
-    z-index: 10;
-}
-.sobremi button a{
-    text-decoration: none;
-    color: white;
-}
-.sobremi button .overlay{
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 0;
-    height: 100%;
-    background-color:#001eff;
-    z-index: -1;
-    transition: 1s;
-}
-.sobremi button:hover .overlay{
-    width: 100%;
-}
+
 /* SECCION S K I L L S */
 .skills{
     background-color: #252A2E;
@@ -246,6 +217,7 @@ html{
     font-family: 'Righteous';
     text-align: center;
     padding: 20px 0;
+    color: #0011ff;
 
 }
 .skills .fila{
@@ -486,6 +458,36 @@ html{
     float: left;
     position: relative;
     bottom: 4px;
+}
+.curriculum button{
+    cursor: pointer;
+    background-color: transparent;
+    border: 2px solid #fff;
+    width: fit-content;
+    display: block;
+    margin: 20px auto;
+    padding: 10px 22px;
+    font-size: 16px;
+    color: #fff;
+    position: relative;
+    z-index: 10;
+}
+.curriculum button a{
+    text-decoration: none;
+    color: white;
+}
+.curriculum button .overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 0;
+    height: 100%;
+    background-color:#001eff;
+    z-index: -1;
+    transition: 1s;
+}
+.curriculum button:hover .overlay{
+    width: 100%;
 }
 /* SECCION PORTFOLIO */
 .portfolio{

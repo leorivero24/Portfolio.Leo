@@ -544,7 +544,7 @@ html{
 }
 .portfolio .galeria .proyecto .overlay h3 a{
     text-decoration: none;
-    color: white;
+    color: deepskyblue;
 }
 .portfolio .galeria .proyecto .overlay:hover{
     opacity: 1;

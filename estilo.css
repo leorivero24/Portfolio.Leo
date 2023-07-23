@@ -554,10 +554,12 @@ html{
 }
 /* SECCION CONTACTO */
 .contacto{
-    background-image: url(img/contact_bg.png);
-    background-color: #1e2326;
-    color: #fff;
-    padding: 50px 0;
+    background: linear-gradient(to top, rgba(41, 48, 51, 0.8), rgb(48, 56, 61)),
+    url(img/fondo4.jpg);
+    background-size: cover;
+    height: 135vh;
+    color: #0011ff;
+    align-items: center;
 }
 .contacto .contenido-seccion{
     max-width: 1100px;
@@ -583,17 +585,18 @@ html{
     display: block;
     width: 100%;
     padding: 18px;
-    border: none;
+    /* border: none; */
+    border-color: #fff;
     margin-bottom: 20px;
-    background-color: #252A2E;
-    color: #fff;
+    color:#0011ff;
     font-size: 18px;
+    background-color: transparent;
     
 }
 .contacto button{
     cursor: pointer;
     background-color: transparent;
-    border: 2px solid #fff;
+    border: 2px solid #0011ff;
     width: fit-content;
     display: block;
     margin: 20px auto;
@@ -617,29 +620,8 @@ html{
 .contacto button:hover .overlay{
     width: 100%;
 }
-.contacto .col img{
-    width: 100%;
-}
-.contacto .col .info{
-    position: absolute;
-    top: 40%;
-    background-color: #252A2E;
-    padding: 20px;
-    max-width: 350px;
-    left: 50%;
-    transform: translate(-50%, -50%);
-}
-.contacto .col .info ul{
-    list-style: none;
-}
-.contacto .col .info ul li{
-    margin-bottom: 20px;
-}
-.contacto .col .info ul li i{
-    color: #1CB698;
-    display: inline-block;
-    margin-right: 20px;
-}
+
+/*FOOTER*/
 footer{
     background-color: #252A2E;
     color: #fff;
@@ -668,7 +650,7 @@ footer .arriba{
     display: block;
     width: 50px;
     height: 50px;
-    background-color: #1CB698;
+    background-color: #0011ff;
     color: #fff;
     position: absolute;
     left: 50%;

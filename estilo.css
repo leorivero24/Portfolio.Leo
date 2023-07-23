@@ -576,6 +576,8 @@ html{
     width: 50%;
     padding: 10px;
     position: relative;
+    margin: 0 auto;
+    
 }
 .contacto .col input, .contacto .col textarea{
     display: block;
@@ -586,6 +588,7 @@ html{
     background-color: #252A2E;
     color: #fff;
     font-size: 18px;
+    
 }
 .contacto button{
     cursor: pointer;
@@ -599,6 +602,7 @@ html{
     color: #fff;
     position: relative;
     z-index: 10;
+    
 }
 .contacto button .overlay{
     position: absolute;
@@ -606,7 +610,7 @@ html{
     left: 0;
     width: 0;
     height: 100%;
-    background-color: #1CB698;
+    background-color: #0011ff;
     z-index: -1;
     transition: 1s;
 }
@@ -621,7 +625,7 @@ html{
     top: 40%;
     background-color: #252A2E;
     padding: 20px;
-    max-swidth: 350px;
+    max-width: 350px;
     left: 50%;
     transform: translate(-50%, -50%);
 }

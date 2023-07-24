@@ -569,7 +569,7 @@ html{
      background: linear-gradient(to top, rgba(26, 31, 32, 0.8), rgb(26, 30, 32)),
     url(img/contact.jpg);
     background-size: cover;
-    height: 140vh;
+    height: 150vh;
     color: #0011ff;
     align-items: center; 
     color: #fff;
@@ -635,6 +635,14 @@ html{
 }
 .contacto button:hover .overlay{
     width: 100%;
+}
+.resultado{
+    text-align: center;
+}
+.error {
+    color: white;
+    font-style: italic;
+    font-family: 'Times New Roman', Times, serif;
 }
 
 /*FOOTER*/

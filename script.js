@@ -41,3 +41,65 @@ function efectoHabilidades(){
 window.onscroll = function(){
     efectoHabilidades();
 } 
+
+//validar formulario contacto
+function enviarMensaje() {
+    // Resetear los mensajes de error
+    document.getElementById('nombreError').textContent = '';
+    document.getElementById('telefonoError').textContent = '';
+    document.getElementById('emailError').textContent = '';
+    document.getElementById('mensajeError').textContent = '';
+
+    // Obtener los valores de los campos
+    const nombre = document.getElementById('nombre').value.trim();
+    const telefono = document.getElementById('telefono').value.trim();
+    const email = document.getElementById('email').value.trim();
+    const mensaje = document.getElementById('mensaje').value.trim();
+
+    let hayErrores = false;
+
+    // Validar campo obligatorio: Nombre
+    if (!nombre) {
+        document.getElementById('nombreError').textContent = 'The name is required.';
+        hayErrores = true;
+    }
+
+    // Validar longitud máxima: Teléfono (10 dígitos)
+    if (telefono.length !== 10) {
+        document.getElementById('telefonoError').textContent = 'The phone must have 10 digits.';
+        hayErrores = true;
+    }
+
+    // Validar expresión regular: Email
+    const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+    if (!emailRegex.test(email)) {
+        document.getElementById('emailError').textContent = 'The email is not valid.';
+        hayErrores = true;
+    }
+
+    // Validar campo obligatorio: Mensaje
+    if (!mensaje) {
+        document.getElementById('mensajeError').textContent = 'The message is required.';
+        hayErrores = true;
+    }
+
+    // Si no hay errores, mostrar los datos enviados
+    if (!hayErrores) {
+        const resultadoDiv = document.getElementById('resultado');
+        resultadoDiv.innerHTML = `
+            <h3>Datos enviados:</h3>
+            <p><strong>Nombre:</strong> ${nombre}</p>
+            <p><strong>Teléfono:</strong> ${telefono}</p>
+            <p><strong>Email:</strong> ${email}</p>
+            <p><strong>Mensaje:</strong> ${mensaje}</p>
+        `;
+
+        // Limpiar los campos del formulario
+        document.getElementById('nombre').value = '';
+        document.getElementById('telefono').value = '';
+        document.getElementById('email').value = '';
+        document.getElementById('mensaje').value = '';
+        
+     
+    }
+}

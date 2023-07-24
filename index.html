@@ -408,19 +408,24 @@
             <div class="fila">
                 <!-- Formulario -->
                 <div class="col">
-                    <input type="text" placeholder="Name">
-                    <input type="text" placeholder="Telephone">
-                    <input type="text" placeholder="M@il">
+                    <input type="text" placeholder="Name" id="nombre">
+                    <div class="error" id="nombreError"></div>
+                    <input type="text" placeholder="Telephone" id="telefono">
+                    <div class="error" id="telefonoError"></div>
+                    <input type="text" placeholder="M@il" id="email">
+                    <div class="error" id="emailError"></div>
                     <!-- <input type="text" placeholder="Tema"> -->
-                    <textarea name="" id="" cols="30" rows="10" placeholder="Message:"></textarea>
-                    <button>
-                        Enviar Mensaje<i class="fa-solid fa-paper-plane"></i>
+                    <textarea name="" id="mensaje" cols="30" rows="10" placeholder="Message:"></textarea>
+                    <div class="error" id="mensajeError"></div>
+                    <button id="enviarBtn" onclick="enviarMensaje()">Enviar Mensaje<i class="fa-solid fa-paper-plane"></i>
                         <span class="overlay"></span>
-                    </button>
+                    </button> 
                 </div>
-            </div>
+            </div>  
         </div>
+        <div id="resultado" class="resultado"></div>
     </section>
+
 
     <!-- footer -->
     <footer>

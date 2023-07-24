@@ -112,8 +112,8 @@ html{
 .inicio .contenido-banner .redes a:hover{
     background-color: #001eff;
 }
+/*SOBRE MI*/
 .sobremi{
-    
     background-color: #011e2e;
     color: #fff;
     padding: 50px 20px;
@@ -168,12 +168,23 @@ html{
 }
 .sobremi .fila .col ul li{
     margin: 12px 0;
+    
 }
 .sobremi .fila .col ul li strong{
     display: inline-block;
-    color: #001eff;
+    color:#fff;
     width: 130px;
 }
+.sobremi .fila .col ul li a{
+    background-color:#000000;
+    padding: 3px;
+    font-weight: bold;
+    border-radius: 5px;
+    text-decoration: none;
+    color: #fff;
+}
+
+
 .sobremi .fila .col ul li span{
     background-color:#001eff;
     padding: 3px;

@@ -566,12 +566,15 @@ html{
 }
 /* SECCION CONTACTO */
 .contacto{
-    background: linear-gradient(to top, rgba(26, 31, 32, 0.8), rgb(26, 30, 32)),
+     background: linear-gradient(to top, rgba(26, 31, 32, 0.8), rgb(26, 30, 32)),
     url(img/contact.jpg);
     background-size: cover;
-    height: 135vh;
+    height: 140vh;
     color: #0011ff;
-    align-items: center;
+    align-items: center; 
+    color: #fff;
+    padding: 50px 20px;
+
 }
 .contacto .contenido-seccion{
     max-width: 1100px;
@@ -582,6 +585,7 @@ html{
     font-family: 'Righteous';
     text-align: center;
     padding: 20px 0;
+    color:#0011ff;
 }
 .contacto .fila{
     display: flex;

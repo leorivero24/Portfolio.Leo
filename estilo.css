@@ -11,7 +11,7 @@ html{
 }
 /* MENU */
 .contenedor-header{
-    background: #1e2326;
+    background:#011e2e;
     position: fixed;
     width: 100%;
     top: 0;
@@ -39,7 +39,7 @@ html{
 }
 .contenedor-header header nav ul li a{
     text-align: none;
-    color:#bac2fc;
+    color:#ffffff;
     margin: 0 15px;
     padding: 3px;
     transition: .5s;
@@ -113,7 +113,8 @@ html{
     background-color: #001eff;
 }
 .sobremi{
-    background-color: #1e2326;
+    
+    background-color: #011e2e;
     color: #fff;
     padding: 50px 20px;
 }
@@ -204,7 +205,7 @@ html{
 
 /* SECCION S K I L L S */
 .skills{
-    background-color: #252A2E;
+    background-color: #131618;
     color: #fff;
     padding: 50px 20px;
 }

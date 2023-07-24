@@ -640,7 +640,7 @@ html{
     text-align: center;
 }
 .error {
-    color: white;
+    color: rgb(253, 37, 37);
     font-style: italic;
     font-family: 'Times New Roman', Times, serif;
 }

@@ -554,8 +554,8 @@ html{
 }
 /* SECCION CONTACTO */
 .contacto{
-    background: linear-gradient(to top, rgba(41, 48, 51, 0.8), rgb(48, 56, 61)),
-    url(img/fondo4.jpg);
+    background: linear-gradient(to top, rgba(26, 31, 32, 0.8), rgb(26, 30, 32)),
+    url(img/contact.jpg);
     background-size: cover;
     height: 135vh;
     color: #0011ff;
@@ -586,7 +586,7 @@ html{
     width: 100%;
     padding: 18px;
     /* border: none; */
-    border-color: #fff;
+    border-color: #ffffff;
     margin-bottom: 20px;
     color:#0011ff;
     font-size: 18px;

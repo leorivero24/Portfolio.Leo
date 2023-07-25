@@ -647,6 +647,8 @@ html{
 
 /*FOOTER*/
 footer{
+    background: url(img/footer.jpg);
+    background-size: cover;
     background-color: #252A2E;
     color: #fff;
     padding: 50px 0 30px 0;
